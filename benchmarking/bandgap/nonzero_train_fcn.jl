@@ -2,7 +2,7 @@
  Initial hyperparameter optimization for comparison of CrystalGraphConvNets.jl to CGCNN.py.
 =#
 using Pkg
-Pkg.activate("/home/qingyanz/CrystalGraphConvNets.jl")
+Pkg.activate("/home/rkurchin/CGCNN/CrystalGraphConvNets.jl")
 using CSV
 using SparseArrays
 using Random, Statistics
