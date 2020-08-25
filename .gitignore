@@ -5,3 +5,6 @@ data/*
 *#
 benchmarking/*/error.*
 benchmarking/*/output.*
+*#
+.vscode/*
+
