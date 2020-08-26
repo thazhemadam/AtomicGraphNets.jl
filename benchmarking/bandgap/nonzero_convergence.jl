@@ -11,8 +11,9 @@ addprocs(nprocs())
 using DataFrames
 
 # hyperparameters from Tian's SI, just trying to match that as closely as possible for now
-nums_pts = Int64.(round.(1.25*exp10.(range(2,stop=log10(17351*0.8),length=8)))) #[7:8]
-nums_pts = sort(vcat(nums_pts, nums_pts, nums_pts))
+#nums_pts = Int64.(round.(1.25*exp10.(range(2,stop=log10(17351*0.8),length=8)))) #[7:8]
+#nums_pts = sort(vcat(nums_pts, nums_pts, nums_pts))
+nums_pts = [100, 100]
 nums_conv = [3]
 atom_fea_lens = [32]
 pool_types = ["mean"]

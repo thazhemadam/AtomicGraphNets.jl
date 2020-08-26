@@ -61,7 +61,7 @@ function cgcnn_train(args)
     atom_feature_vecs = make_feature_vectors(features, num_bins, logspaced)
 
     # dataset...first, read in outputs
-    info = CSV.read(string(datadir,prop,"_nonzero.csv"))
+    info = CSV.read(string(datadir,prop,".csv"))
     y = Array(Float32.(info[!, Symbol(prop)]))
 
     # shuffle data and pick out subset

@@ -6,5 +6,7 @@ data/formation_energy_per_atom_ellists/
 data/formation_energy_per_atom_graphs/
 data/*/*.cif
 data/*/*.txt
+benchmarking/*/error.*
+benchmarking/*/output.*
 *#
 .vscode/*
